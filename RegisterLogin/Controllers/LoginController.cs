@@ -1,13 +1,14 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Authenticate.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using RegisterLogin.DAL;
-using RegisterLogin.Models;
+using Authenticate.DAL;
+using Authenticate.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace RegisterLogin.Controllers
+namespace Authenticate.Controllers
 {
-    [Authorize]
+   
     public class LoginController : Controller
     {
         private DBOperations dbOperations = new DBOperations();

@@ -1,6 +1,6 @@
 using System;
 
-namespace RegisterLogin.Models
+namespace Authenticate.Models
 {
     public class ErrorViewModel
     {

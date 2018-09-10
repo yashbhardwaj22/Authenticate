@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RegisterLogin.DAL;
+using Authenticate.DAL;
 
-namespace RegisterLogin
+namespace Authenticate
 {
     public class ModelEntity:DbContext
     {       

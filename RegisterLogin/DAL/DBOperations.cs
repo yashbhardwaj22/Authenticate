@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RegisterLogin.DAL
+namespace Authenticate.DAL
 {
     public class DBOperations
     {
