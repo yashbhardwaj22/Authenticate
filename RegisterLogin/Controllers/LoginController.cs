@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using RegisterLogin.DAL;
 using RegisterLogin.Models;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Linq;
 
 namespace RegisterLogin.Controllers
 {
-
+    [Authorize]
     public class LoginController : Controller
     {
         private DBOperations dbOperations = new DBOperations();
